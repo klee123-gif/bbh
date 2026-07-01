@@ -1,0 +1,32 @@
+.content1{
+    display:flex;
+    flex-direction: column;
+}
+
+.what-is-borneo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:70vh;
+    background-color: #ebf2e1;
+}
+
+.what-is-borneo-img{
+    height:50vh;
+    width: 50vh;
+    border-radius: 5vh;
+    margin-right: 5vh;
+}
+
+.what-is-borneo-content{
+    display:flex;
+    flex-direction: column;
+    margin-left: 5vh;
+}
+
+.what-is-borneo-content-h{
+    color:#454545;
+    font-size: 5vh;
+    font-weight: bold;
+}
