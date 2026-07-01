@@ -1,0 +1,185 @@
+.top{
+    display: flex;
+    background-color: transparent;
+    position: fixed;
+    z-index:2;
+    width:100%;
+}
+
+.top:hover{
+    background:rgba(0, 0, 0, 0.303);
+}
+
+.logo{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width:15vh;
+}
+
+.logo10{
+    position:absolute;
+    visibility:visible;
+}
+
+top:hover .logo10{
+    visibility:visible
+}
+
+.logo10.scrolled{
+    visibility:hidden
+}
+
+.logo11{
+    visibility: hidden;
+}
+
+top:hover .logo11{
+    visibility:hidden
+}
+
+.logo11.scrolled{
+    visibility:visible
+}
+
+.navi{
+    flex:4;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color:white
+}
+
+.top:hover .navi{
+    color:white
+}
+
+.navi.scrolled{
+    color:black
+}
+
+.navi-title{
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vh;
+}
+
+.navi-title-p{
+    font-family: verdana;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.arrow0{
+    height:0.5vh;
+    width: 0.5vh;
+    border-top:2px solid rgb(255, 255, 255);
+    border-left:2px solid rgb(255, 255, 255);
+    margin-left:5px;
+    transform: translateY(2px) rotate(45deg) ;
+    margin-left:1vh
+}
+
+.top:hover .arrow0{
+    border-top:2px solid rgb(255, 255, 255);
+    border-left:2px solid rgb(255, 255, 255);
+}
+
+.navi-title:hover .arrow0{
+    transform: translateY(-2px) rotate(-135deg);
+    transition-duration: 0.3s;
+}
+
+.arrow0.scrolled{
+    border-top:2px solid rgb(0, 0, 0);
+    border-left:2px solid rgb(0, 0, 0);
+}
+
+.arrow1{
+    height:0.5vh;
+    width: 0.5vh;
+    border-top:2px solid rgb(255, 255, 255);
+    border-left:2px solid rgb(255, 255, 255);
+    margin-left:5px;
+    transform: translateY(2px) rotate(45deg) ;
+    margin-left:1vh
+}
+
+.top:hover .arrow1{
+    border-top:2px solid rgb(255, 255, 255);
+    border-left:2px solid rgb(255, 255, 255);
+}
+
+.navi-title:hover .arrow1{
+    transform: translateY(-2px) rotate(-135deg);
+    transition-duration: 0.3s;
+}
+
+.arrow1.scrolled{
+    border-top:2px solid rgb(0, 0, 0);
+    border-left:2px solid rgb(0, 0, 0);
+}
+
+.navi-content{
+    visibility: hidden;
+    position: absolute
+}
+
+.navi-content a{
+    text-decoration: none;
+    color:black;
+    margin-left:1vh
+}
+
+.navi-content p{
+    color:black;
+    margin-left:1vh
+}
+
+.navi-title:hover .navi-content{
+    min-width:20vh;
+    visibility:visible;
+    transform:translateY(7vh);
+    background-color: white;
+    border:1px solid black;
+    padding:auto
+}
+
+empty{
+    flex:5;
+}
+
+.search{
+    flex:3;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color:white;
+}
+
+
+.top:hover .search{
+    color:white
+}
+
+.search.scrolled{
+    color:black;
+}
+
+.material-symbols-outlined{
+    margin-right: 5vh;
+    cursor: pointer;
+}
+
