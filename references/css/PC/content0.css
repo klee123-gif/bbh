@@ -74,7 +74,7 @@ background p2{
     z-index:0
 }
 
-.partner{
+/* .partner{
     width:100%;
     height: 21vh;
     background-color:#ebf2e1;
@@ -164,7 +164,7 @@ carousel::-webkit-scrollbar{
     height:11vh;
     margin-left:10vh;
     margin-right: 10vh;
-}
+} */
 
 @media (min-aspect-ratio:16/9){
     .background-video{
@@ -186,7 +186,7 @@ carousel::-webkit-scrollbar{
     justify-content: start;
     align-items: center;
     width:100%;
-    height:100vh;
+    height:70vh;
     background-color: #ebf2e1;
     margin-top:87.5vh
 }
@@ -204,4 +204,130 @@ carousel::-webkit-scrollbar{
     font-size: 2vh;
     margin-top:2vh;
     font-family: arial;
+}
+
+.card{
+    margin-top:5vh;
+    display:flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.card::-webkit-scrollbar{
+    display:none
+}
+
+@keyframes spin{
+    from {translate:O;}
+    to {translate:-100%}
+}
+
+.card-background{
+    position:absolute;
+    z-index: 2;
+    width:90%;
+    height:30vh;
+    background:linear-gradient(-90deg,
+            #ebf2e1 0%,
+            transparent 10%,
+            transparent 90%,
+            #ebf2e1 100%); 
+}
+
+.all-box{
+    display:flex;
+}
+
+.box-list{
+    display:flex
+}
+
+.box{
+    animation:spin 60s infinite linear;
+    display:flex;
+}
+
+.box{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 1vh;
+    border:2px solid #74ac00;
+    margin:0 5vh
+}
+
+.card-box-img{
+    height:25vh;
+    width:40vh;
+    border-radius: 1vh;
+}
+
+.card-box-h{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color:white;
+    font-size: 3.5vh;
+    font-weight: bold;
+    text-align: center;
+    height:25vh;
+    width:40vh;
+    background:linear-gradient(180deg,
+            transparent 70%,
+            #000000 100%);
+}
+
+.card-box-p{
+    margin-top: 1vh;
+    color:black;
+    text-decoration: none;
+}
+
+.read-more-story{
+    text-decoration: none;
+    margin-top: 5vh;
+    color:white;
+    padding:1vh 2vh;
+    background-color: #74ac00;
+    border-radius: 2.5vh;
+    font-size: 4vh;
+}
+
+.record{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:40vh;
+}
+
+.record-box{
+    display:flex;
+    flex-direction: column;
+    margin-left:5vh;
+    margin-right:5vh
+}
+
+.record-box-img{
+    height: 20vh;
+    width:20vh;
+    align-self: center;
+}
+
+.record-box-h{
+    font-size:4vh;
+    font-family: arial;
+    text-align: center;
+    color:#454545;
+    font-weight: bold;
+}
+
+.record-box-p{
+    font-size:2vh;
+    font-family: arial;
+    color:#454545;
 }
