@@ -145,7 +145,7 @@ bottom{
     padding:1vh 2vh;
     border-radius: 3vh;
     margin:3vh;
-    border:1px solid #74ac00;
+    border:1px solid #74ac00
 }
 
 .social-support-donate:hover,
@@ -184,7 +184,8 @@ bottom{
 .mobile-download-img{
     height:6vh;
     width:20vh;
-    margin:3vh    
+    margin:3vh;
+    cursor: pointer;
 }
 
 .bottom-sea{
