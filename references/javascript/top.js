@@ -1,7 +1,7 @@
 const navi = document.querySelector(".navi");
 const arrow0 = document.querySelector(".arrow0");
 const arrow1 = document.querySelector(".arrow1");
-const icons = document.querySelector(".search");
+const icons = document.querySelector(".search0");
 const logo10 = document.querySelector(".logo10");
 const logo11 = document.querySelector(".logo11");
 
