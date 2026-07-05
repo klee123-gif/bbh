@@ -59,6 +59,7 @@ background p1{
     color:white;
     background-color: black;
     transition-duration: 0.3s;
+    transform:scale(1.15);
 }
 
 background p2{
@@ -186,7 +187,7 @@ carousel::-webkit-scrollbar{
     justify-content: start;
     align-items: center;
     width:100%;
-    height:70vh;
+    height:80vh;
     background-color: #ebf2e1;
     margin-top:87.5vh
 }
@@ -228,7 +229,7 @@ carousel::-webkit-scrollbar{
     position:absolute;
     z-index: 2;
     width:90%;
-    height:30vh;
+    height:42vh;
     background:linear-gradient(-90deg,
             #ebf2e1 0%,
             transparent 10%,
@@ -241,12 +242,9 @@ carousel::-webkit-scrollbar{
 }
 
 .box-list{
-    display:flex
-}
-
-.box{
-    animation:spin 60s infinite linear;
     display:flex;
+    position: relative;
+    z-index: 1;
 }
 
 .box{
@@ -256,7 +254,8 @@ carousel::-webkit-scrollbar{
     align-items: center;
     border-radius: 1vh;
     border:2px solid #74ac00;
-    margin:0 5vh
+    margin:0 5vh;
+    animation:spin 60s infinite linear;
 }
 
 .card-box-img{
@@ -277,14 +276,16 @@ carousel::-webkit-scrollbar{
     height:25vh;
     width:40vh;
     background:linear-gradient(180deg,
-            transparent 70%,
+            transparent 30%,
             #000000 100%);
+    padding-bottom:1vh
 }
 
 .card-box-p{
-    margin-top: 1vh;
     color:black;
     text-decoration: none;
+    padding:2vh;
+    text-align: justify;
 }
 
 .read-more-story{
