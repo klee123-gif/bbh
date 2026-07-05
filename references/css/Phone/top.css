@@ -1,0 +1,23 @@
+@media (max-width:1000px){
+    .top{
+        background:rgba(0, 0, 0, 0.303);
+    }
+
+    .navi-title-p{
+        font-size: 1.5vh;
+    }
+
+    .search0{
+        display:none
+    }
+
+    .search1{
+        flex:1;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}

@@ -1,0 +1,58 @@
+@media (max-width:1000px){
+    .contact{
+    display:flex;
+    flex-direction: column;
+    height: 80vh;
+    }
+
+    .mobile-download{
+        display:flex;
+        flex-direction: row;
+    }
+
+    .faqs{
+        height: 70vh;
+    }
+
+    .faqs-h{
+        margin-top: 3vh
+    }
+
+    .faqs-q1,
+    .faqs-q2,
+    .faqs-q3,
+    .faqs-q4{
+        width:90%;
+    }
+
+    .faqs-q1-h,
+    .faqs-q2-h,
+    .faqs-q3-h,
+    .faqs-q4-h  {
+        font-size: 2.5vh;
+    }
+
+    .faqs-q1-add1,
+    .faqs-q2-add1,
+    .faqs-q3-add1,
+    .faqs-q4-add1  {
+        border-left:0.4vh solid #454545;
+        height:3vh;
+    }
+
+    .faqs-q1-add2,
+    .faqs-q2-add2,
+    .faqs-q3-add2,
+    .faqs-q4-add2 {
+        border-right:0.4vh solid #454545;
+        height:3vh;
+    }
+
+    .faqs-a1,
+    .faqs-a2,
+    .faqs-a3,
+    .faqs-a4  {
+        width:85%;
+        font-size: 2vh;
+    }
+}
