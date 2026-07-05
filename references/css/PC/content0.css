@@ -294,8 +294,16 @@ carousel::-webkit-scrollbar{
     color:white;
     padding:1vh 2vh;
     background-color: #74ac00;
+    border:1px solid #74ac00;
     border-radius: 2.5vh;
     font-size: 4vh;
+}
+
+.read-more-story:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    background-color: white;
+    color:#74ac00
 }
 
 .record{
