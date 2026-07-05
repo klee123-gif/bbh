@@ -32,7 +32,7 @@
     visibility:visible;
 }
 
-top:hover .logo10{
+.top:hover .logo10{
     visibility:visible
 }
 
@@ -78,58 +78,37 @@ top:hover .logo11{
 
 .navi-title-p{
     font-family: verdana;
-    font-size: 13px;
+    font-size: 2vh;
     font-weight: 500;
 }
 
-.arrow0{
-    height:0.5vh;
-    width: 0.5vh;
-    border-top:2px solid rgb(255, 255, 255);
-    border-left:2px solid rgb(255, 255, 255);
-    margin-left:5px;
-    transform: translateY(2px) rotate(45deg) ;
-    margin-left:1vh
-}
-
-.top:hover .arrow0{
-    border-top:2px solid rgb(255, 255, 255);
-    border-left:2px solid rgb(255, 255, 255);
-}
-
-.navi-title:hover .arrow0{
-    transform: translateY(-2px) rotate(-135deg);
-    transition-duration: 0.3s;
-}
-
-.arrow0.scrolled{
-    border-top:2px solid rgb(0, 0, 0);
-    border-left:2px solid rgb(0, 0, 0);
-}
-
+.arrow0,
 .arrow1{
     height:0.5vh;
     width: 0.5vh;
-    border-top:2px solid rgb(255, 255, 255);
-    border-left:2px solid rgb(255, 255, 255);
+    border-top:0.3vh solid rgb(255, 255, 255);
+    border-left:0.3vh solid rgb(255, 255, 255);
     margin-left:5px;
     transform: translateY(2px) rotate(45deg) ;
     margin-left:1vh
 }
 
+.top:hover .arrow0,
 .top:hover .arrow1{
-    border-top:2px solid rgb(255, 255, 255);
-    border-left:2px solid rgb(255, 255, 255);
+    border-top:0.3vh solid rgb(255, 255, 255);
+    border-left:0.3vh solid rgb(255, 255, 255);
 }
 
+.navi-title:hover .arrow0,
 .navi-title:hover .arrow1{
-    transform: translateY(-2px) rotate(-135deg);
+    transform: translateY(-0.2vh) rotate(-135deg);
     transition-duration: 0.3s;
 }
 
+.arrow0.scrolled,
 .arrow1.scrolled{
-    border-top:2px solid rgb(0, 0, 0);
-    border-left:2px solid rgb(0, 0, 0);
+    border-top:0.3vh solid rgb(0, 0, 0);
+    border-left:0.3vh solid rgb(0, 0, 0);
 }
 
 .navi-content{
@@ -157,11 +136,7 @@ top:hover .logo11{
     padding:auto
 }
 
-empty{
-    flex:5;
-}
-
-.search{
+.search0{
     flex:3;
     display: flex;
     justify-content: end;
@@ -169,12 +144,26 @@ empty{
     color:white;
 }
 
+.search1{
+    display:none;
+}
 
-.top:hover .search{
+.burger1,
+.burger2,
+.burger3{
+    display:flex;
+    width: 40%;
+    height:3%;
+    background-color: white;
+    border-radius: 5%;
+    margin:0.4vh 0
+}
+
+.top:hover .search0{
     color:white
 }
 
-.search.scrolled{
+.search0.scrolled{
     color:black;
 }
 

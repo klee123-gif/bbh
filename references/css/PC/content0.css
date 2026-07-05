@@ -205,6 +205,7 @@ carousel::-webkit-scrollbar{
     font-size: 2vh;
     margin-top:2vh;
     font-family: arial;
+    text-align: center;
 }
 
 .card{
@@ -321,6 +322,11 @@ carousel::-webkit-scrollbar{
     margin-right:5vh
 }
 
+.box1,
+.box2{
+    display:flex
+}
+
 .record-box-img{
     height: 20vh;
     width:20vh;
@@ -339,4 +345,5 @@ carousel::-webkit-scrollbar{
     font-size:2vh;
     font-family: arial;
     color:#454545;
+    text-align: center;
 }

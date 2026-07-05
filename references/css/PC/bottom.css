@@ -49,8 +49,8 @@ bottom{
 .faqs-q4-add1  {
     margin-left:auto;
     display:flex;
-    border-left:3px solid #454545;
-    height:4vh;
+    border-left:0.4vh solid #454545;
+    height:3.5vh;
 }
 
 .faqs-q1-add2,
@@ -59,8 +59,8 @@ bottom{
 .faqs-q4-add2 {
     margin-left:5vh;
     display:flex;
-    border-right:3px solid #454545;
-    height:4vh;
+    border-right:0.4vh solid #454545;
+    height:3.5vh;
     transform: rotate(90deg) translateY(5.4vh);
 }
 
@@ -116,6 +116,10 @@ bottom{
     margin:0 5vh
 }
 
+.element-disclaimer{
+    display:flex;
+}
+
 .contact-element-p{
     text-decoration: none;
     font-size: 2vh;
@@ -168,7 +172,7 @@ bottom{
 .fa-whatsapp { color: #25D366; }
 
 .fa-brands{
-    font-size:32px;
+    font-size:5vh;
     transition:.3s;
 }
 
