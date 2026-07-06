@@ -3,6 +3,10 @@
         background:rgba(0, 0, 0, 0.303);
     }
 
+    .logo img{
+        width:10vh;
+    }
+    
     .navi-title-p{
         font-size: 1.5vh;
     }
