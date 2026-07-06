@@ -46,6 +46,10 @@
         font-weight: 500;
     }
 
+    .explore-h{
+        font-size: 5vh;
+    }
+
     .card-box-img{
         height:15vh;
         width:24vh;
