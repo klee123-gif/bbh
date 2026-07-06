@@ -193,6 +193,7 @@ carousel::-webkit-scrollbar{
 }
 
 .explore-h{
+    text-align:center;
     color:#454545;
     font-weight: bold;
     font-size: 7vh;
