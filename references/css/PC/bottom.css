@@ -8,9 +8,10 @@ bottom{
     flex-direction: column;
     width:100%;
     height: 60vh;
-    background-color: #fff;
+    background-color: transparent;
     justify-content: start;
     align-items: center;
+    z-index:1
 }
 
 .faqs-h{
@@ -96,13 +97,22 @@ bottom{
     display:flex;
 }
 
+.bottom-animals{
+    position: absolute;
+    z-index: 0;
+    width:100%;
+    height:125vh
+}
+
 .contact{
+    margin-top:25vh;
     display:flex;
     width:100%;
-    height: 35vh;
+    height: 30vh;
     background-color: #e8ebed;
     justify-content: center;
     align-items: center;
+    bottom:0
 }
 
 .element,
@@ -113,7 +123,8 @@ bottom{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:0 5vh
+    margin:0 5vh;
+    z-index: 1;
 }
 
 .element-disclaimer{
@@ -182,7 +193,8 @@ bottom{
 
 .contact-logo{
     height:10vh;
-    width:18vh
+    width:18vh;
+    z-index:2
 }
 
 .mobile-download-img{
@@ -193,8 +205,10 @@ bottom{
 }
 
 .bottom-sea{
+    margin-top:5vh;
     display:flex;
     height:7vh;
     width:100%;
     background-color: #454545;
+    z-index:1
 }
