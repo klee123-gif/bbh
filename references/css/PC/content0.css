@@ -1,3 +1,90 @@
+content0{
+    display:flex;
+    flex-direction: column;
+}
+
+.butterfly{
+    position:absolute;
+    z-index: 5;
+    height:10vh;
+    width:10vh;
+    right:35vh;
+    top:24vh;
+    transform: rotate(-30deg);
+}
+
+.tarsier{
+    display:flex;
+    height:20vh;
+    width:25vh;
+    z-index: 5;
+    position: absolute;
+    bottom:0;
+}
+
+.tarsier-pic{
+    height:20vh;
+    width:25vh;
+    position: absolute;
+    z-index: 5;
+    transition-duration: 0.5s;
+}
+
+.tarsier-respond{
+    visibility: hidden;
+    transition-duration: 0.5s;
+    opacity:0;
+    scale:0
+}
+
+.tarsier:hover .tarsier-pic{
+    scale:1.2;
+}
+
+.tarsier:hover .tarsier-respond{
+    visibility: visible;
+    transform: translateX(17vh) translateY(-5vh);
+    opacity:1;
+    scale:1.5
+}
+
+.orang-utan{
+    display:flex;
+    height:30vh;
+    width:45vh;
+    z-index: 5;
+    position: absolute;
+    bottom:0;
+    right:5vh;
+}
+
+.orang-utan-pic{
+    height:30vh;
+    width:45vh;
+    position: absolute;
+    z-index: 5;
+    transition-duration: 0.5s;
+    right:0;
+}
+
+.orang-utan-respond{
+    visibility: hidden;
+    transition-duration: 0.5s;
+    opacity:0;
+    scale:0
+}
+
+.orang-utan:hover .orang-utan-pic{
+    scale:1.1;
+}
+
+.orang-utan:hover .orang-utan-respond{
+    visibility: visible;
+    transform: translateX(-37vh) translateY(-5vh);
+    opacity:1;
+    scale:1
+}
+
 background{
     position:absolute;
     z-index:1;
@@ -193,7 +280,7 @@ carousel::-webkit-scrollbar{
 }
 
 .explore-h{
-    text-align:center;
+    text-align: center;
     color:#454545;
     font-weight: bold;
     font-size: 7vh;
