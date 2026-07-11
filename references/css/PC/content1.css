@@ -3,6 +3,38 @@
     flex-direction: column;
 }
 
+.gif1{
+    width:100%;
+}
+
+.gif-pitcher-plant{
+    position:absolute;
+    z-index:5;
+    cursor:pointer;
+    height: 32vh;
+    width: 26vh;
+    transform: translateY(-10vh);
+}
+
+.gif-pitcher-plant:hover{
+    height: 33vh;
+    width: 27vh;
+    transition-duration: 0.3s;
+}
+
+.pitcher-plant{
+    display:none;
+    position:absolute;
+    z-index:5;
+    height: 35vh;
+    width: 50vh;
+    transform: translateY(17vh) translateX(5vh)
+}
+
+.pitcher-plant.shown{
+    display:block;
+}
+
 .what-is-borneo{
     display: flex;
     justify-content: center;
