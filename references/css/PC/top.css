@@ -53,9 +53,9 @@ top:hover .logo11{
 }
 
 .navi{
-    flex:4;
+    flex:3;
     display: flex;
-    justify-content: start;
+    justify-content: space-evenly;
     align-items: center;
     color:white
 }
@@ -83,7 +83,8 @@ top:hover .logo11{
 }
 
 .arrow0,
-.arrow1{
+.arrow1,
+.arrow2{
     height:0.5vh;
     width: 0.5vh;
     border-top:0.3vh solid rgb(255, 255, 255);
@@ -94,19 +95,22 @@ top:hover .logo11{
 }
 
 .top:hover .arrow0,
-.top:hover .arrow1{
+.top:hover .arrow1,
+.top:hover .arrow2{
     border-top:0.3vh solid rgb(255, 255, 255);
     border-left:0.3vh solid rgb(255, 255, 255);
 }
 
 .navi-title:hover .arrow0,
-.navi-title:hover .arrow1{
+.navi-title:hover .arrow1,
+.navi-title:hover .arrow2{
     transform: translateY(-0.2vh) rotate(-135deg);
     transition-duration: 0.3s;
 }
 
 .arrow0.scrolled,
-.arrow1.scrolled{
+.arrow1.scrolled,
+.arrow2.scrolled{
     border-top:0.3vh solid rgb(0, 0, 0);
     border-left:0.3vh solid rgb(0, 0, 0);
 }
@@ -137,7 +141,7 @@ top:hover .logo11{
 }
 
 .search0{
-    flex:3;
+    flex:5;
     display: flex;
     justify-content: end;
     align-items: center;
