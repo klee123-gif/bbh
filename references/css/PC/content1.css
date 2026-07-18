@@ -3,36 +3,37 @@
     flex-direction: column;
 }
 
-.gif1{
-    width:100%;
+.pitcher-plant{
+    display:flex;
+    position: absolute;
+    height: 25vh;
+    width:20vh;
+    transform: translateY(-5vh);
 }
 
-.gif-pitcher-plant{
-    position:absolute;
-    z-index:5;
-    cursor:pointer;
-    height: 32vh;
-    width: 26vh;
-    transform: translateY(-10vh);
+.pitcher-plant-pic{
+    height: 25vh;
+    width:20vh;
+    transition-duration: 0.3s;
+    position: absolute;
 }
 
-.gif-pitcher-plant:hover{
-    height: 33vh;
-    width: 27vh;
+.pitcher-plant-respond{
+    visibility: hidden;
+    scale:0;
+    opacity:0;
     transition-duration: 0.3s;
 }
 
-.pitcher-plant{
-    display:none;
-    position:absolute;
-    z-index:5;
-    height: 35vh;
-    width: 50vh;
-    transform: translateY(17vh) translateX(5vh)
+.pitcher-plant:hover .pitcher-plant-pic{
+    scale:1.1
 }
 
-.pitcher-plant.shown{
-    display:block;
+.pitcher-plant:hover .pitcher-plant-respond{
+    visibility: visible;
+    scale: 1.3;
+    opacity:1;
+    transform: translateY(10vh) translateX(5vh);
 }
 
 .what-is-borneo{
