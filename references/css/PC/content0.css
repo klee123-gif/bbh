@@ -27,12 +27,12 @@ content0{
     width:25vh;
     position: absolute;
     z-index: 5;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
 }
 
 .tarsier-respond{
     visibility: hidden;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
     opacity:0;
     scale:0
 }
@@ -63,13 +63,13 @@ content0{
     width:45vh;
     position: absolute;
     z-index: 5;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
     right:0;
 }
 
 .orang-utan-respond{
     visibility: hidden;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
     opacity:0;
     scale:0
 }
@@ -274,7 +274,7 @@ carousel::-webkit-scrollbar{
     justify-content: start;
     align-items: center;
     width:100%;
-    height:80vh;
+    height:90vh;
     background-color: #ebf2e1;
     margin-top:87.5vh
 }
@@ -284,7 +284,7 @@ carousel::-webkit-scrollbar{
     color:#454545;
     font-weight: bold;
     font-size: 7vh;
-    margin-top:5vh
+    margin-top:12.5vh
 }
 
 .explore-p{
